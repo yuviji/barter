@@ -1,0 +1,28 @@
+{
+  "name": "vapi-test",
+  "version": "1.0.0",
+  "main": "dist/call.js",
+  "scripts": {
+    "start": "ts-node call.ts",
+    "build": "tsc",
+    "dev": "ts-node call.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vapi-ai/server-sdk": "^0.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/node-fetch": "^2.6.12",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
