@@ -1,6 +1,6 @@
 import type { RetailerData } from "@/types/retailer"
 
-const PERPLEXITY_API_KEY = "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"
+const PERPLEXITY_API_KEY = "your-api-key-here"
 
 // Helper function to generate a fake NYC phone number
 function generateFakeNYCNumber(): string {
