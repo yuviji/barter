@@ -11,7 +11,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
-const VAPI_PRIVATE_KEY = '183f4df8-2934-4f53-809c-01c8dc655573';
+const VAPI_PRIVATE_KEY = 'NICETRY';
 
 interface CallResponse {
   id: string;
