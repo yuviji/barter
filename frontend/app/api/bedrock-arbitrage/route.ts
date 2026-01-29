@@ -6,8 +6,8 @@ import { NextRequest, NextResponse } from "next/server";
 const bedrockClient = new BedrockRuntimeClient({
     region: "us-east-2",
     credentials: {
-        accessKeyId: "AKIA6GBMGF2DNSV2DLOQ",
-        secretAccessKey: "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",
+        accessKeyId: "NICETRY",
+        secretAccessKey: "NICETRY",
     }
 });
 
