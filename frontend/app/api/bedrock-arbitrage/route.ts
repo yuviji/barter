@@ -12,7 +12,7 @@ const bedrockClient = new BedrockRuntimeClient({
 });
 
 // Initialize Tavily
-const tvly = tavily({ apiKey: "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" });
+const tvly = tavily({ apiKey: "NICETRY" });
 
 // Helper function to call Claude via Bedrock
 async function callClaude(prompt: string, maxTokens: number = 2000): Promise<string> {
